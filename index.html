@@ -9,6 +9,14 @@
 
     <!-- Include Mocha's stylesheet to style test results -->
     <link rel="stylesheet" href="node_modules/mocha/mocha.css">
+  <!--  <style>
+      #center {
+        box-sizing: border-box;
+        margin-left: 100px;
+        color: red;
+      }
+    </style>
+  -->
   </head>
 
   <body>
@@ -16,7 +24,7 @@
     <div id="mocha"></div>
 
     <!-- Include Mocha and set it up for BDD-style testing. -->
-    <script src="node_modules/mocha/mocha.js"></script>
+   <script src="node_modules/mocha/mocha.js"></script>
     <script>mocha.setup('bdd');</script>
 
     <!-- Include Chai as the matcher library. -->
@@ -29,9 +37,18 @@
     <script src="konami_code.js"></script>
 
     <!-- Include the JavaScript file containing the tests. -->
-    <script src="test/indexTest.js"></script>
+   <script src="test/indexTest.js"></script>
 
     <!-- Include Flatiron School's minified test runner to push results to Learn. -->
     <script src="node_modules/learn-browser/learnBrowser.min.js"></script>
+<!--
+    <div id="center">
+          <p id="p" onclick="onKeyDownHandler(e);">
+            <a href="#" text-align=center>foo</a>
+            <span>bar</span>
+          </p>
+          <p> HELLO! </p>
+    </div>
+  -->
   </body>
 </html>
